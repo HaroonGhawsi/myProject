@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Market Analyzer</title>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+
+</head>
+<body>
+
+<form name="logInfo" method="post">
+    <label>User Name</label>
+    <input name="uid" type="text"/>
+    <label>Password</label>
+    <input name="uPwd" type="password" />
+    <input type="Submit" onclick="return validateForm();"/>
+</form>
+
+
+
+    <script>
+        function validateForm(){
+            var uid = document.forms.logInfo.uid.value;
+            if(uid == null || uid == ""){
+                alert("User Name cannot be empty");
+                return false;
+            }
+            var uPwd = document.forms.logInfo.uPwd.value;
+            if(uPwd == null || uPwd == ""){
+                alert("Password cannot be empty");
+                return false;
+            }
+        }
+
+        var socket = io.connect();
+
+        socket.on('message', function(data){
+           $('#date').text(data.date);
+        });
+
+    </script>
+
+    <div id="date"></div>
+
+
+</body>
+</html>

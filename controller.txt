@@ -1,0 +1,41 @@
+
+
+//Code for Client Connectivity with Controller
+var http = require('http');
+var controller = http.createServer(function(request, response){
+    //console.log("Got Response from client");
+    //console.log(request.headers);
+    response.writeHead(200, {
+        'id'            :   'username',
+        'Password'      :   'Password'
+    });
+    //console.log("Got Response from Client!");
+    console.log(response);
+    response.write("Response");
+    response.end();
+    console.log('Successfully Connected to Controller');
+}).listen(5000);
+
+
+
+//Controller connectivity to OracleDB
+    var dbConnect = require('oracledb');
+
+    dbConnect.getConnection({
+        'id'        :   'username',
+        'password'  :   'password'
+    }, function(err, connection){
+        if(err){
+            console.error(err.message);
+            return;
+        }
+        connection.execute()
+            console.log('Data request from Oracledb!');
+        function(err, result){
+            if(err){
+                console.error(err.message);
+                return;
+            }
+            console.log(result.rows);
+        };
+    });

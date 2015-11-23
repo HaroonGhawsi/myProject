@@ -1,0 +1,10 @@
+Controller
+	-> Connect to OracleDB	-> Send Request to OracleDB (Connectivity request)
+
+	-> Connect to Clients	-> Receive request from client(Connectivity request localhost:5000)
+					-> Send connection success message to client
+
+	-> Login Button		-> Function to validate login credentials
+					-> Receive client login request 
+					-> Validate login credentials with OracleDB (Username/Password)
+					-> Send validation response to Client
