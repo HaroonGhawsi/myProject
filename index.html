@@ -15,13 +15,13 @@
     <input name="uid" type="text"/>
     <label>Password</label>
     <input name="uPwd" type="password" />
-    <input type="Submit" onclick="return validateForm();"/>
+    <input id="sbtn" type="Submit" onclick="return submitFormData();"/>
 </form>
 
 
 
     <script>
-        function validateForm(){
+        function submitFormData(){
             var uid = document.forms.logInfo.uid.value;
             if(uid == null || uid == ""){
                 alert("User Name cannot be empty");
@@ -32,7 +32,27 @@
                 alert("Password cannot be empty");
                 return false;
             }
-        }
+
+            $("#sbtn").on("click", function(e){
+                e.preventDefault();
+
+                $.ajax({
+                    url:"localhost",
+                    type:"POST",
+                    data:{
+                        type:"login",
+                        User:uid,
+                        Pass:uPwd
+                    },
+                    complete: function(response){
+                        var test = $.parseHTML(response);
+                        alert(test);
+                    }
+
+                });
+            });
+
+        };
 
         var socket = io.connect();
 
