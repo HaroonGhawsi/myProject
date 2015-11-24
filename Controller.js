@@ -83,17 +83,7 @@ var controller = http.createServer(function(request, response){
 controller.listen(5000);
 io.listen(controller);
 
-    var listener = io.listen(controller);
-    listener.sockets.on('connection', function(socket){
-        setInterval(function(data){
-        socket.emit('date', {
-            'date': new Date()
-        });
-        },1000);
-        socket.on('client_data', function(data){
-            process.stdout.write(data.letter);
-        });
-    });
+
 
 
 

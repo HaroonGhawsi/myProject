@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Stock Market Analyzer</title>
-
     <script src="/socket.io/socket.io.js"></script>
-
 
 </head>
 <body>
@@ -15,50 +13,27 @@
     <input name="uid" type="text"/>
     <label>Password</label>
     <input name="uPwd" type="password" />
-    <input id="sbtn" type="Submit" onclick="return submitFormData();"/>
+    <input id="sbtn" type="Submit" onclick="validateForm();"/>
 </form>
 
-
-
     <script>
-        function submitFormData(){
-            var uid = document.forms.logInfo.uid.value;
-            if(uid == null || uid == ""){
-                alert("User Name cannot be empty");
-                return false;
-            }
-            var uPwd = document.forms.logInfo.uPwd.value;
-            if(uPwd == null || uPwd == ""){
-                alert("Password cannot be empty");
-                return false;
-            }
 
-            $("#sbtn").on("click", function(e){
-                e.preventDefault();
+            function validateForm(){
+                var uid = document.forms.logInfo.uid.value;
+                if(uid == null || uid == ""){
+                    alert("User Name cannot be empty");
+                    return false;
+                }
+                var uPwd = document.forms.logInfo.uPwd.value;
+                if(uPwd == null || uPwd == ""){
+                    alert("Password cannot be empty");
+                    return false;
+                }
+            };
+            function submitFormData(){};
 
-                $.ajax({
-                    url:"localhost",
-                    type:"POST",
-                    data:{
-                        type:"login",
-                        User:uid,
-                        Pass:uPwd
-                    },
-                    complete: function(response){
-                        var test = $.parseHTML(response);
-                        alert(test);
-                    }
+        //var socket = io.connect();
 
-                });
-            });
-
-        };
-
-        var socket = io.connect();
-
-        socket.on('message', function(data){
-           $('#date').text(data.date);
-        });
 
     </script>
 
