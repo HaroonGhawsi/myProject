@@ -1,0 +1,1374 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'oracledb',
+1 verbose cli   '--save' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData oracledb
+8 silly fetchNamedPackageData oracledb
+9 silly mapToRegistry name oracledb
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+13 verbose request uri https://registry.npmjs.org/oracledb
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 2:21:34 PM
+16 verbose request id c4918054d876eca9
+17 verbose etag "3J9DJ8NFXOYNT3GVNPRWXHPL3"
+18 http request GET https://registry.npmjs.org/oracledb
+19 http 304 https://registry.npmjs.org/oracledb
+20 verbose headers { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   'cache-control': 'max-age=60',
+20 verbose headers   etag: '"3J9DJ8NFXOYNT3GVNPRWXHPL3"',
+20 verbose headers   age: '9',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-ams4121-AMS',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '4',
+20 verbose headers   'x-timer': 'S1448976092.553728,VS0,VE0',
+20 verbose headers   vary: 'Accept' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     'cache-control': 'max-age=60',
+21 silly get     etag: '"3J9DJ8NFXOYNT3GVNPRWXHPL3"',
+21 silly get     age: '9',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-ams4121-AMS',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '4',
+21 silly get     'x-timer': 'S1448976092.553728,VS0,VE0',
+21 silly get     vary: 'Accept' } ]
+22 verbose etag https://registry.npmjs.org/oracledb from cache
+23 verbose get saving oracledb to C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\registry.npmjs.org\oracledb\.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule oracledb@1.4.0 checking installable status
+37 silly cache add args [ 'oracledb', null ]
+38 verbose cache add spec oracledb
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'oracledb',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'oracledb',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: '*',
+39 silly cache add   type: 'range' }
+40 silly addNamed oracledb@*
+41 verbose addNamed "*" is a valid semver range for oracledb
+42 silly addNameRange { name: 'oracledb', range: '*', hasData: false }
+43 silly mapToRegistry name oracledb
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+47 verbose addNameRange registry:https://registry.npmjs.org/oracledb not in flight; fetching
+48 verbose get https://registry.npmjs.org/oracledb not expired, no request
+49 silly addNameRange number 2 { name: 'oracledb', range: '*', hasData: true }
+50 silly addNameRange versions [ 'oracledb',
+50 silly addNameRange   [ '0.2.4',
+50 silly addNameRange     '0.3.1',
+50 silly addNameRange     '0.4.1',
+50 silly addNameRange     '0.4.2',
+50 silly addNameRange     '0.5.0',
+50 silly addNameRange     '0.6.0',
+50 silly addNameRange     '0.7.0',
+50 silly addNameRange     '1.0.0',
+50 silly addNameRange     '1.1.0',
+50 silly addNameRange     '1.2.0',
+50 silly addNameRange     '1.3.0',
+50 silly addNameRange     '1.4.0' ] ]
+51 silly addNamed oracledb@1.4.0
+52 verbose addNamed "1.4.0" is a plain semver version for oracledb
+53 silly cache afterAdd oracledb@1.4.0
+54 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\oracledb\1.4.0\package\package.json not in flight; writing
+55 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\oracledb\1.4.0\package\package.json written
+56 silly fetchNamedPackageData nan
+57 silly mapToRegistry name nan
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/nan
+61 verbose request uri https://registry.npmjs.org/nan
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 2:21:34 PM
+64 verbose etag "7CEDVJA24M9BXRU7SU6WRSW4M"
+65 http request GET https://registry.npmjs.org/nan
+66 http 304 https://registry.npmjs.org/nan
+67 verbose headers { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+67 verbose headers   via: '1.1 varnish',
+67 verbose headers   'cache-control': 'max-age=60',
+67 verbose headers   etag: '"7CEDVJA24M9BXRU7SU6WRSW4M"',
+67 verbose headers   age: '30',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'x-served-by': 'cache-ams4129-AMS',
+67 verbose headers   'x-cache': 'HIT',
+67 verbose headers   'x-cache-hits': '3',
+67 verbose headers   'x-timer': 'S1448976092.796448,VS0,VE0',
+67 verbose headers   vary: 'Accept' }
+68 silly get cb [ 304,
+68 silly get   { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     'cache-control': 'max-age=60',
+68 silly get     etag: '"7CEDVJA24M9BXRU7SU6WRSW4M"',
+68 silly get     age: '30',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-ams4129-AMS',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '3',
+68 silly get     'x-timer': 'S1448976092.796448,VS0,VE0',
+68 silly get     vary: 'Accept' } ]
+69 verbose etag https://registry.npmjs.org/nan from cache
+70 verbose get saving nan to C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+71 silly resolveWithNewModule nan@2.1.0 checking installable status
+72 silly cache add args [ 'nan@~2.1.0', null ]
+73 verbose cache add spec nan@~2.1.0
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'nan@~2.1.0',
+74 silly cache add   scope: null,
+74 silly cache add   name: 'nan',
+74 silly cache add   rawSpec: '~2.1.0',
+74 silly cache add   spec: '>=2.1.0 <2.2.0',
+74 silly cache add   type: 'range' }
+75 silly addNamed nan@>=2.1.0 <2.2.0
+76 verbose addNamed ">=2.1.0 <2.2.0" is a valid semver range for nan
+77 silly addNameRange { name: 'nan', range: '>=2.1.0 <2.2.0', hasData: false }
+78 silly mapToRegistry name nan
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/nan
+82 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+83 verbose get https://registry.npmjs.org/nan not expired, no request
+84 silly addNameRange number 2 { name: 'nan', range: '>=2.1.0 <2.2.0', hasData: true }
+85 silly addNameRange versions [ 'nan',
+85 silly addNameRange   [ '0.3.0-wip',
+85 silly addNameRange     '0.3.0-wip2',
+85 silly addNameRange     '0.3.0',
+85 silly addNameRange     '0.3.1',
+85 silly addNameRange     '0.3.2',
+85 silly addNameRange     '0.4.0',
+85 silly addNameRange     '0.4.1',
+85 silly addNameRange     '0.4.2',
+85 silly addNameRange     '0.4.3',
+85 silly addNameRange     '0.4.4',
+85 silly addNameRange     '0.5.0',
+85 silly addNameRange     '0.5.1',
+85 silly addNameRange     '0.5.2',
+85 silly addNameRange     '0.6.0',
+85 silly addNameRange     '0.7.0',
+85 silly addNameRange     '0.7.1',
+85 silly addNameRange     '0.8.0',
+85 silly addNameRange     '1.0.0',
+85 silly addNameRange     '1.1.0',
+85 silly addNameRange     '1.1.1',
+85 silly addNameRange     '1.1.2',
+85 silly addNameRange     '1.2.0',
+85 silly addNameRange     '1.3.0',
+85 silly addNameRange     '1.4.0',
+85 silly addNameRange     '1.4.1',
+85 silly addNameRange     '1.5.0',
+85 silly addNameRange     '1.4.2',
+85 silly addNameRange     '1.4.3',
+85 silly addNameRange     '1.5.1',
+85 silly addNameRange     '1.5.2',
+85 silly addNameRange     '1.6.0',
+85 silly addNameRange     '1.5.3',
+85 silly addNameRange     '1.6.1',
+85 silly addNameRange     '1.6.2',
+85 silly addNameRange     '1.7.0',
+85 silly addNameRange     '1.8.0',
+85 silly addNameRange     '1.8.1',
+85 silly addNameRange     '1.8.2',
+85 silly addNameRange     '1.8.3',
+85 silly addNameRange     '1.8.4',
+85 silly addNameRange     '1.9.0',
+85 silly addNameRange     '2.0.0',
+85 silly addNameRange     '2.0.1',
+85 silly addNameRange     '2.0.2',
+85 silly addNameRange     '2.0.3',
+85 silly addNameRange     '2.0.4',
+85 silly addNameRange     '2.0.5',
+85 silly addNameRange     '2.0.6',
+85 silly addNameRange     '2.0.7',
+85 silly addNameRange     '2.0.8',
+85 silly addNameRange     '2.0.9',
+85 silly addNameRange     '2.1.0' ] ]
+86 silly addNamed nan@2.1.0
+87 verbose addNamed "2.1.0" is a plain semver version for nan
+88 silly cache afterAdd nan@2.1.0
+89 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\nan\2.1.0\package\package.json not in flight; writing
+90 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\nan\2.1.0\package\package.json written
+91 silly fetchNamedPackageData bufferutil
+92 silly mapToRegistry name bufferutil
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+96 silly fetchNamedPackageData utf-8-validate
+97 silly mapToRegistry name utf-8-validate
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/utf-8-validate
+101 verbose request uri https://registry.npmjs.org/bufferutil
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 2:21:34 PM
+104 verbose etag "9NLYGHUX8MGYC2LICJDWKWNPW"
+105 http request GET https://registry.npmjs.org/bufferutil
+106 verbose request uri https://registry.npmjs.org/utf-8-validate
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 2:21:34 PM
+109 verbose etag "E7XYFT7FUBMH6H6XYWMIRAGJ0"
+110 http request GET https://registry.npmjs.org/utf-8-validate
+111 http 304 https://registry.npmjs.org/bufferutil
+112 verbose headers { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+112 verbose headers   via: '1.1 varnish',
+112 verbose headers   'cache-control': 'max-age=60',
+112 verbose headers   etag: '"9NLYGHUX8MGYC2LICJDWKWNPW"',
+112 verbose headers   age: '53',
+112 verbose headers   connection: 'keep-alive',
+112 verbose headers   'x-served-by': 'cache-ams4122-AMS',
+112 verbose headers   'x-cache': 'HIT',
+112 verbose headers   'x-cache-hits': '4',
+112 verbose headers   'x-timer': 'S1448976092.998312,VS0,VE0',
+112 verbose headers   vary: 'Accept' }
+113 silly get cb [ 304,
+113 silly get   { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+113 silly get     via: '1.1 varnish',
+113 silly get     'cache-control': 'max-age=60',
+113 silly get     etag: '"9NLYGHUX8MGYC2LICJDWKWNPW"',
+113 silly get     age: '53',
+113 silly get     connection: 'keep-alive',
+113 silly get     'x-served-by': 'cache-ams4122-AMS',
+113 silly get     'x-cache': 'HIT',
+113 silly get     'x-cache-hits': '4',
+113 silly get     'x-timer': 'S1448976092.998312,VS0,VE0',
+113 silly get     vary: 'Accept' } ]
+114 verbose etag https://registry.npmjs.org/bufferutil from cache
+115 verbose get saving bufferutil to C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\registry.npmjs.org\bufferutil\.cache.json
+116 http 304 https://registry.npmjs.org/utf-8-validate
+117 verbose headers { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   'cache-control': 'max-age=60',
+117 verbose headers   etag: '"E7XYFT7FUBMH6H6XYWMIRAGJ0"',
+117 verbose headers   age: '4',
+117 verbose headers   connection: 'keep-alive',
+117 verbose headers   'x-served-by': 'cache-ams4127-AMS',
+117 verbose headers   'x-cache': 'HIT',
+117 verbose headers   'x-cache-hits': '1',
+117 verbose headers   'x-timer': 'S1448976092.998805,VS0,VE0',
+117 verbose headers   vary: 'Accept' }
+118 silly get cb [ 304,
+118 silly get   { date: 'Tue, 01 Dec 2015 13:21:32 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     'cache-control': 'max-age=60',
+118 silly get     etag: '"E7XYFT7FUBMH6H6XYWMIRAGJ0"',
+118 silly get     age: '4',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-ams4127-AMS',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '1',
+118 silly get     'x-timer': 'S1448976092.998805,VS0,VE0',
+118 silly get     vary: 'Accept' } ]
+119 verbose etag https://registry.npmjs.org/utf-8-validate from cache
+120 verbose get saving utf-8-validate to C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\registry.npmjs.org\utf-8-validate\.cache.json
+121 silly resolveWithNewModule bufferutil@1.2.1 checking installable status
+122 silly cache add args [ 'bufferutil@1.2.x', null ]
+123 verbose cache add spec bufferutil@1.2.x
+124 silly cache add parsed spec Result {
+124 silly cache add   raw: 'bufferutil@1.2.x',
+124 silly cache add   scope: null,
+124 silly cache add   name: 'bufferutil',
+124 silly cache add   rawSpec: '1.2.x',
+124 silly cache add   spec: '>=1.2.0 <1.3.0',
+124 silly cache add   type: 'range' }
+125 silly addNamed bufferutil@>=1.2.0 <1.3.0
+126 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for bufferutil
+127 silly addNameRange { name: 'bufferutil', range: '>=1.2.0 <1.3.0', hasData: false }
+128 silly mapToRegistry name bufferutil
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/bufferutil
+132 verbose addNameRange registry:https://registry.npmjs.org/bufferutil not in flight; fetching
+133 silly resolveWithNewModule utf-8-validate@1.2.1 checking installable status
+134 silly cache add args [ 'utf-8-validate@1.2.x', null ]
+135 verbose cache add spec utf-8-validate@1.2.x
+136 silly cache add parsed spec Result {
+136 silly cache add   raw: 'utf-8-validate@1.2.x',
+136 silly cache add   scope: null,
+136 silly cache add   name: 'utf-8-validate',
+136 silly cache add   rawSpec: '1.2.x',
+136 silly cache add   spec: '>=1.2.0 <1.3.0',
+136 silly cache add   type: 'range' }
+137 silly addNamed utf-8-validate@>=1.2.0 <1.3.0
+138 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for utf-8-validate
+139 silly addNameRange { name: 'utf-8-validate',
+139 silly addNameRange   range: '>=1.2.0 <1.3.0',
+139 silly addNameRange   hasData: false }
+140 silly mapToRegistry name utf-8-validate
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry uri https://registry.npmjs.org/utf-8-validate
+144 verbose addNameRange registry:https://registry.npmjs.org/utf-8-validate not in flight; fetching
+145 verbose get https://registry.npmjs.org/bufferutil not expired, no request
+146 silly addNameRange number 2 { name: 'bufferutil', range: '>=1.2.0 <1.3.0', hasData: true }
+147 silly addNameRange versions [ 'bufferutil',
+147 silly addNameRange   [ '1.0.0', '1.0.1', '1.1.0', '1.2.0', '1.2.1' ] ]
+148 silly addNamed bufferutil@1.2.1
+149 verbose addNamed "1.2.1" is a plain semver version for bufferutil
+150 verbose get https://registry.npmjs.org/utf-8-validate not expired, no request
+151 silly addNameRange number 2 { name: 'utf-8-validate',
+151 silly addNameRange   range: '>=1.2.0 <1.3.0',
+151 silly addNameRange   hasData: true }
+152 silly addNameRange versions [ 'utf-8-validate',
+152 silly addNameRange   [ '1.0.0', '1.0.1', '1.1.0', '1.2.0', '1.2.1' ] ]
+153 silly addNamed utf-8-validate@1.2.1
+154 verbose addNamed "1.2.1" is a plain semver version for utf-8-validate
+155 silly cache afterAdd bufferutil@1.2.1
+156 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\bufferutil\1.2.1\package\package.json not in flight; writing
+157 silly cache afterAdd utf-8-validate@1.2.1
+158 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\utf-8-validate\1.2.1\package\package.json not in flight; writing
+159 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\utf-8-validate\1.2.1\package\package.json written
+160 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\bufferutil\1.2.1\package\package.json written
+161 silly fetchNamedPackageData bindings
+162 silly mapToRegistry name bindings
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/bindings
+166 verbose request uri https://registry.npmjs.org/bindings
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 2:21:34 PM
+169 verbose etag "2RXG5K4RRQWEOOFOAOOKVPOZR"
+170 http request GET https://registry.npmjs.org/bindings
+171 http 304 https://registry.npmjs.org/bindings
+172 verbose headers { date: 'Tue, 01 Dec 2015 13:21:33 GMT',
+172 verbose headers   via: '1.1 varnish',
+172 verbose headers   'cache-control': 'max-age=60',
+172 verbose headers   etag: '"2RXG5K4RRQWEOOFOAOOKVPOZR"',
+172 verbose headers   age: '40',
+172 verbose headers   connection: 'keep-alive',
+172 verbose headers   'x-served-by': 'cache-ams4122-AMS',
+172 verbose headers   'x-cache': 'HIT',
+172 verbose headers   'x-cache-hits': '2',
+172 verbose headers   'x-timer': 'S1448976093.106325,VS0,VE0',
+172 verbose headers   vary: 'Accept' }
+173 silly get cb [ 304,
+173 silly get   { date: 'Tue, 01 Dec 2015 13:21:33 GMT',
+173 silly get     via: '1.1 varnish',
+173 silly get     'cache-control': 'max-age=60',
+173 silly get     etag: '"2RXG5K4RRQWEOOFOAOOKVPOZR"',
+173 silly get     age: '40',
+173 silly get     connection: 'keep-alive',
+173 silly get     'x-served-by': 'cache-ams4122-AMS',
+173 silly get     'x-cache': 'HIT',
+173 silly get     'x-cache-hits': '2',
+173 silly get     'x-timer': 'S1448976093.106325,VS0,VE0',
+173 silly get     vary: 'Accept' } ]
+174 verbose etag https://registry.npmjs.org/bindings from cache
+175 verbose get saving bindings to C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+176 silly resolveWithNewModule bindings@1.2.1 checking installable status
+177 silly cache add args [ 'bindings@1.2.x', null ]
+178 verbose cache add spec bindings@1.2.x
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'bindings@1.2.x',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'bindings',
+179 silly cache add   rawSpec: '1.2.x',
+179 silly cache add   spec: '>=1.2.0 <1.3.0',
+179 silly cache add   type: 'range' }
+180 silly addNamed bindings@>=1.2.0 <1.3.0
+181 verbose addNamed ">=1.2.0 <1.3.0" is a valid semver range for bindings
+182 silly addNameRange { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: false }
+183 silly mapToRegistry name bindings
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/bindings
+187 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+188 verbose get https://registry.npmjs.org/bindings not expired, no request
+189 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.0 <1.3.0', hasData: true }
+190 silly addNameRange versions [ 'bindings',
+190 silly addNameRange   [ '0.0.1',
+190 silly addNameRange     '0.1.0',
+190 silly addNameRange     '0.1.1',
+190 silly addNameRange     '0.2.0',
+190 silly addNameRange     '0.2.1',
+190 silly addNameRange     '0.2.2',
+190 silly addNameRange     '0.2.3',
+190 silly addNameRange     '0.2.4',
+190 silly addNameRange     '0.3.0',
+190 silly addNameRange     '0.4.0',
+190 silly addNameRange     '1.0.0',
+190 silly addNameRange     '1.1.0',
+190 silly addNameRange     '1.1.1',
+190 silly addNameRange     '1.2.0',
+190 silly addNameRange     '1.2.1' ] ]
+191 silly addNamed bindings@1.2.1
+192 verbose addNamed "1.2.1" is a plain semver version for bindings
+193 silly cache afterAdd bindings@1.2.1
+194 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+195 verbose afterAdd C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+196 silly loadAllDepsIntoIdealTree Finishing
+197 silly idealTree:prePrune application-name@0.0.1
+197 silly idealTree:prePrune ├── accepts@1.2.13
+197 silly idealTree:prePrune ├── after@0.8.1
+197 silly idealTree:prePrune ├── array-flatten@1.1.1
+197 silly idealTree:prePrune ├── arraybuffer.slice@0.0.6
+197 silly idealTree:prePrune ├── async@1.4.2
+197 silly idealTree:prePrune ├── backo2@1.0.2
+197 silly idealTree:prePrune ├── base64-arraybuffer@0.1.2
+197 silly idealTree:prePrune ├── base64id@0.1.0
+197 silly idealTree:prePrune ├── benchmark@1.0.0
+197 silly idealTree:prePrune ├── better-assert@1.0.2
+197 silly idealTree:prePrune ├── bindings@1.2.1
+197 silly idealTree:prePrune ├── blob@0.0.4
+197 silly idealTree:prePrune ├── bufferutil@1.2.1
+197 silly idealTree:prePrune ├── callsite@1.0.0
+197 silly idealTree:prePrune ├── co@3.1.0
+197 silly idealTree:prePrune ├── colors@1.1.2
+197 silly idealTree:prePrune ├── commander@2.3.0
+197 silly idealTree:prePrune ├── component-bind@1.0.0
+197 silly idealTree:prePrune ├── component-emitter@1.1.2
+197 silly idealTree:prePrune ├── component-inherit@0.0.3
+197 silly idealTree:prePrune ├── content-disposition@0.5.0
+197 silly idealTree:prePrune ├── content-type@1.0.1
+197 silly idealTree:prePrune ├── cookie-signature@1.0.6
+197 silly idealTree:prePrune ├── cookie@0.1.3
+197 silly idealTree:prePrune ├── debug@2.2.0
+197 silly idealTree:prePrune ├── depd@1.0.1
+197 silly idealTree:prePrune ├── destroy@1.0.3
+197 silly idealTree:prePrune ├── diff@1.4.0
+197 silly idealTree:prePrune ├── domain@0.0.1
+197 silly idealTree:prePrune ├── dotty@0.0.2
+197 silly idealTree:prePrune ├── ee-first@1.1.1
+197 silly idealTree:prePrune ├─┬ engine.io-client@1.5.4
+197 silly idealTree:prePrune │ ├── debug@1.0.4
+197 silly idealTree:prePrune │ ├── ms@0.6.2
+197 silly idealTree:prePrune │ └── parseuri@0.0.4
+197 silly idealTree:prePrune ├── engine.io-parser@1.2.2
+197 silly idealTree:prePrune ├─┬ engine.io@1.5.4
+197 silly idealTree:prePrune │ ├── debug@1.0.3
+197 silly idealTree:prePrune │ └── ms@0.6.2
+197 silly idealTree:prePrune ├── escape-html@1.0.2
+197 silly idealTree:prePrune ├── escape-string-regexp@1.0.2
+197 silly idealTree:prePrune ├── etag@1.7.0
+197 silly idealTree:prePrune ├── eventstore@1.5.1
+197 silly idealTree:prePrune ├── express@4.13.3
+197 silly idealTree:prePrune ├── finalhandler@0.4.0
+197 silly idealTree:prePrune ├── forwarded@0.1.0
+197 silly idealTree:prePrune ├── fresh@0.3.0
+197 silly idealTree:prePrune ├── glob@3.2.3
+197 silly idealTree:prePrune ├── global@2.0.1
+197 silly idealTree:prePrune ├── graceful-fs@2.0.3
+197 silly idealTree:prePrune ├── growl@1.8.1
+197 silly idealTree:prePrune ├── has-binary-data@0.1.3
+197 silly idealTree:prePrune ├── has-binary@0.1.6
+197 silly idealTree:prePrune ├── has-cors@1.0.3
+197 silly idealTree:prePrune ├── http-errors@1.3.1
+197 silly idealTree:prePrune ├── indexof@0.0.1
+197 silly idealTree:prePrune ├── inherits@2.0.1
+197 silly idealTree:prePrune ├── ipaddr.js@1.0.1
+197 silly idealTree:prePrune ├── isarray@0.0.1
+197 silly idealTree:prePrune ├─┬ jade@0.26.3
+197 silly idealTree:prePrune │ ├── commander@0.6.1
+197 silly idealTree:prePrune │ └── mkdirp@0.3.0
+197 silly idealTree:prePrune ├── json3@3.2.6
+197 silly idealTree:prePrune ├── jsondate@0.0.1
+197 silly idealTree:prePrune ├── lodash@3.10.1
+197 silly idealTree:prePrune ├── lru-cache@2.7.3
+197 silly idealTree:prePrune ├── media-typer@0.3.0
+197 silly idealTree:prePrune ├── merge-descriptors@1.0.0
+197 silly idealTree:prePrune ├── methods@1.1.1
+197 silly idealTree:prePrune ├── mime-db@1.19.0
+197 silly idealTree:prePrune ├── mime-types@2.1.7
+197 silly idealTree:prePrune ├── mime@1.3.4
+197 silly idealTree:prePrune ├── minimatch@0.2.14
+197 silly idealTree:prePrune ├── minimist@0.0.8
+197 silly idealTree:prePrune ├── mkdirp@0.5.0
+197 silly idealTree:prePrune ├── mocha@2.3.4
+197 silly idealTree:prePrune ├── ms@0.7.1
+197 silly idealTree:prePrune ├── nan@2.1.0
+197 silly idealTree:prePrune ├── negotiator@0.5.3
+197 silly idealTree:prePrune ├── node-uuid@1.4.3
+197 silly idealTree:prePrune ├── object-component@0.0.3
+197 silly idealTree:prePrune ├── object-keys@1.0.1
+197 silly idealTree:prePrune ├── on-finished@2.3.0
+197 silly idealTree:prePrune ├── options@0.0.6
+197 silly idealTree:prePrune ├── oracledb@1.4.0
+197 silly idealTree:prePrune ├── parent-require@1.0.0
+197 silly idealTree:prePrune ├── parsejson@0.0.1
+197 silly idealTree:prePrune ├── parseqs@0.0.2
+197 silly idealTree:prePrune ├── parseuri@0.0.2
+197 silly idealTree:prePrune ├── parseurl@1.3.0
+197 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+197 silly idealTree:prePrune ├── proxy-addr@1.0.8
+197 silly idealTree:prePrune ├── qs@4.0.0
+197 silly idealTree:prePrune ├── range-parser@1.0.3
+197 silly idealTree:prePrune ├── retry@0.8.0
+197 silly idealTree:prePrune ├── send@0.13.0
+197 silly idealTree:prePrune ├── serve-static@1.10.0
+197 silly idealTree:prePrune ├── shortid@2.2.4
+197 silly idealTree:prePrune ├── should-equal@0.3.1
+197 silly idealTree:prePrune ├── should-format@0.0.7
+197 silly idealTree:prePrune ├── should-type@0.0.4
+197 silly idealTree:prePrune ├── should@4.6.5
+197 silly idealTree:prePrune ├── sigmund@1.0.1
+197 silly idealTree:prePrune ├─┬ socket.io-adapter@0.3.1
+197 silly idealTree:prePrune │ ├── debug@1.0.2
+197 silly idealTree:prePrune │ ├── ms@0.6.2
+197 silly idealTree:prePrune │ └─┬ socket.io-parser@2.2.2
+197 silly idealTree:prePrune │   └── debug@0.7.4
+197 silly idealTree:prePrune ├─┬ socket.io-client@1.3.7
+197 silly idealTree:prePrune │ └── debug@0.7.4
+197 silly idealTree:prePrune ├─┬ socket.io-parser@2.2.4
+197 silly idealTree:prePrune │ └── debug@0.7.4
+197 silly idealTree:prePrune ├─┬ socket.io@1.3.7
+197 silly idealTree:prePrune │ ├── debug@2.1.0
+197 silly idealTree:prePrune │ └── ms@0.6.2
+197 silly idealTree:prePrune ├── statuses@1.2.1
+197 silly idealTree:prePrune ├── supports-color@1.2.0
+197 silly idealTree:prePrune ├── thunkify@2.1.2
+197 silly idealTree:prePrune ├── to-array@0.1.3
+197 silly idealTree:prePrune ├── tolerance@1.0.0
+197 silly idealTree:prePrune ├── type-is@1.6.9
+197 silly idealTree:prePrune ├── ultron@1.0.2
+197 silly idealTree:prePrune ├── unpipe@1.0.0
+197 silly idealTree:prePrune ├── utf-8-validate@1.2.1
+197 silly idealTree:prePrune ├── utf8@2.1.0
+197 silly idealTree:prePrune ├── utils-merge@1.0.0
+197 silly idealTree:prePrune ├── vary@1.0.1
+197 silly idealTree:prePrune ├── ws@0.8.0
+197 silly idealTree:prePrune └── xmlhttprequest@1.5.0
+198 silly loadIdealTree Finishing
+199 silly currentTree application-name@0.0.1
+199 silly currentTree ├── accepts@1.2.13
+199 silly currentTree ├── after@0.8.1
+199 silly currentTree ├── array-flatten@1.1.1
+199 silly currentTree ├── arraybuffer.slice@0.0.6
+199 silly currentTree ├── async@1.4.2
+199 silly currentTree ├── backo2@1.0.2
+199 silly currentTree ├── base64-arraybuffer@0.1.2
+199 silly currentTree ├── base64id@0.1.0
+199 silly currentTree ├── benchmark@1.0.0
+199 silly currentTree ├── better-assert@1.0.2
+199 silly currentTree ├── blob@0.0.4
+199 silly currentTree ├── callsite@1.0.0
+199 silly currentTree ├── co@3.1.0
+199 silly currentTree ├── colors@1.1.2
+199 silly currentTree ├── commander@2.3.0
+199 silly currentTree ├── component-bind@1.0.0
+199 silly currentTree ├── component-emitter@1.1.2
+199 silly currentTree ├── component-inherit@0.0.3
+199 silly currentTree ├── content-disposition@0.5.0
+199 silly currentTree ├── content-type@1.0.1
+199 silly currentTree ├── cookie-signature@1.0.6
+199 silly currentTree ├── cookie@0.1.3
+199 silly currentTree ├── debug@2.2.0
+199 silly currentTree ├── depd@1.0.1
+199 silly currentTree ├── destroy@1.0.3
+199 silly currentTree ├── diff@1.4.0
+199 silly currentTree ├── domain@0.0.1
+199 silly currentTree ├── dotty@0.0.2
+199 silly currentTree ├── ee-first@1.1.1
+199 silly currentTree ├─┬ engine.io-client@1.5.4
+199 silly currentTree │ ├── debug@1.0.4
+199 silly currentTree │ ├── ms@0.6.2
+199 silly currentTree │ └── parseuri@0.0.4
+199 silly currentTree ├── engine.io-parser@1.2.2
+199 silly currentTree ├─┬ engine.io@1.5.4
+199 silly currentTree │ ├── debug@1.0.3
+199 silly currentTree │ └── ms@0.6.2
+199 silly currentTree ├── escape-html@1.0.2
+199 silly currentTree ├── escape-string-regexp@1.0.2
+199 silly currentTree ├── etag@1.7.0
+199 silly currentTree ├── eventstore@1.5.1
+199 silly currentTree ├── express@4.13.3
+199 silly currentTree ├── finalhandler@0.4.0
+199 silly currentTree ├── forwarded@0.1.0
+199 silly currentTree ├── fresh@0.3.0
+199 silly currentTree ├── glob@3.2.3
+199 silly currentTree ├── global@2.0.1
+199 silly currentTree ├── graceful-fs@2.0.3
+199 silly currentTree ├── growl@1.8.1
+199 silly currentTree ├── has-binary-data@0.1.3
+199 silly currentTree ├── has-binary@0.1.6
+199 silly currentTree ├── has-cors@1.0.3
+199 silly currentTree ├── http-errors@1.3.1
+199 silly currentTree ├── indexof@0.0.1
+199 silly currentTree ├── inherits@2.0.1
+199 silly currentTree ├── ipaddr.js@1.0.1
+199 silly currentTree ├── isarray@0.0.1
+199 silly currentTree ├─┬ jade@0.26.3
+199 silly currentTree │ ├── commander@0.6.1
+199 silly currentTree │ └── mkdirp@0.3.0
+199 silly currentTree ├── json3@3.2.6
+199 silly currentTree ├── jsondate@0.0.1
+199 silly currentTree ├── lodash@3.10.1
+199 silly currentTree ├── lru-cache@2.7.3
+199 silly currentTree ├── media-typer@0.3.0
+199 silly currentTree ├── merge-descriptors@1.0.0
+199 silly currentTree ├── methods@1.1.1
+199 silly currentTree ├── mime-db@1.19.0
+199 silly currentTree ├── mime-types@2.1.7
+199 silly currentTree ├── mime@1.3.4
+199 silly currentTree ├── minimatch@0.2.14
+199 silly currentTree ├── minimist@0.0.8
+199 silly currentTree ├── mkdirp@0.5.0
+199 silly currentTree ├── mocha@2.3.4
+199 silly currentTree ├── ms@0.7.1
+199 silly currentTree ├── negotiator@0.5.3
+199 silly currentTree ├── node-uuid@1.4.3
+199 silly currentTree ├── object-component@0.0.3
+199 silly currentTree ├── object-keys@1.0.1
+199 silly currentTree ├── on-finished@2.3.0
+199 silly currentTree ├── options@0.0.6
+199 silly currentTree ├── parent-require@1.0.0
+199 silly currentTree ├── parsejson@0.0.1
+199 silly currentTree ├── parseqs@0.0.2
+199 silly currentTree ├── parseuri@0.0.2
+199 silly currentTree ├── parseurl@1.3.0
+199 silly currentTree ├── path-to-regexp@0.1.7
+199 silly currentTree ├── proxy-addr@1.0.8
+199 silly currentTree ├── qs@4.0.0
+199 silly currentTree ├── range-parser@1.0.3
+199 silly currentTree ├── retry@0.8.0
+199 silly currentTree ├── send@0.13.0
+199 silly currentTree ├── serve-static@1.10.0
+199 silly currentTree ├── shortid@2.2.4
+199 silly currentTree ├── should-equal@0.3.1
+199 silly currentTree ├── should-format@0.0.7
+199 silly currentTree ├── should-type@0.0.4
+199 silly currentTree ├── should@4.6.5
+199 silly currentTree ├── sigmund@1.0.1
+199 silly currentTree ├─┬ socket.io-adapter@0.3.1
+199 silly currentTree │ ├── debug@1.0.2
+199 silly currentTree │ ├── ms@0.6.2
+199 silly currentTree │ └─┬ socket.io-parser@2.2.2
+199 silly currentTree │   └── debug@0.7.4
+199 silly currentTree ├─┬ socket.io-client@1.3.7
+199 silly currentTree │ └── debug@0.7.4
+199 silly currentTree ├─┬ socket.io-parser@2.2.4
+199 silly currentTree │ └── debug@0.7.4
+199 silly currentTree ├─┬ socket.io@1.3.7
+199 silly currentTree │ ├── debug@2.1.0
+199 silly currentTree │ └── ms@0.6.2
+199 silly currentTree ├── statuses@1.2.1
+199 silly currentTree ├── supports-color@1.2.0
+199 silly currentTree ├── thunkify@2.1.2
+199 silly currentTree ├── to-array@0.1.3
+199 silly currentTree ├── tolerance@1.0.0
+199 silly currentTree ├── type-is@1.6.9
+199 silly currentTree ├── ultron@1.0.2
+199 silly currentTree ├── unpipe@1.0.0
+199 silly currentTree ├── utf8@2.1.0
+199 silly currentTree ├── utils-merge@1.0.0
+199 silly currentTree ├── vary@1.0.1
+199 silly currentTree ├── ws@0.8.0
+199 silly currentTree └── xmlhttprequest@1.5.0
+200 silly idealTree application-name@0.0.1
+200 silly idealTree ├── accepts@1.2.13
+200 silly idealTree ├── after@0.8.1
+200 silly idealTree ├── array-flatten@1.1.1
+200 silly idealTree ├── arraybuffer.slice@0.0.6
+200 silly idealTree ├── async@1.4.2
+200 silly idealTree ├── backo2@1.0.2
+200 silly idealTree ├── base64-arraybuffer@0.1.2
+200 silly idealTree ├── base64id@0.1.0
+200 silly idealTree ├── benchmark@1.0.0
+200 silly idealTree ├── better-assert@1.0.2
+200 silly idealTree ├── bindings@1.2.1
+200 silly idealTree ├── blob@0.0.4
+200 silly idealTree ├── bufferutil@1.2.1
+200 silly idealTree ├── callsite@1.0.0
+200 silly idealTree ├── co@3.1.0
+200 silly idealTree ├── colors@1.1.2
+200 silly idealTree ├── commander@2.3.0
+200 silly idealTree ├── component-bind@1.0.0
+200 silly idealTree ├── component-emitter@1.1.2
+200 silly idealTree ├── component-inherit@0.0.3
+200 silly idealTree ├── content-disposition@0.5.0
+200 silly idealTree ├── content-type@1.0.1
+200 silly idealTree ├── cookie-signature@1.0.6
+200 silly idealTree ├── cookie@0.1.3
+200 silly idealTree ├── debug@2.2.0
+200 silly idealTree ├── depd@1.0.1
+200 silly idealTree ├── destroy@1.0.3
+200 silly idealTree ├── diff@1.4.0
+200 silly idealTree ├── domain@0.0.1
+200 silly idealTree ├── dotty@0.0.2
+200 silly idealTree ├── ee-first@1.1.1
+200 silly idealTree ├─┬ engine.io-client@1.5.4
+200 silly idealTree │ ├── debug@1.0.4
+200 silly idealTree │ ├── ms@0.6.2
+200 silly idealTree │ └── parseuri@0.0.4
+200 silly idealTree ├── engine.io-parser@1.2.2
+200 silly idealTree ├─┬ engine.io@1.5.4
+200 silly idealTree │ ├── debug@1.0.3
+200 silly idealTree │ └── ms@0.6.2
+200 silly idealTree ├── escape-html@1.0.2
+200 silly idealTree ├── escape-string-regexp@1.0.2
+200 silly idealTree ├── etag@1.7.0
+200 silly idealTree ├── eventstore@1.5.1
+200 silly idealTree ├── express@4.13.3
+200 silly idealTree ├── finalhandler@0.4.0
+200 silly idealTree ├── forwarded@0.1.0
+200 silly idealTree ├── fresh@0.3.0
+200 silly idealTree ├── glob@3.2.3
+200 silly idealTree ├── global@2.0.1
+200 silly idealTree ├── graceful-fs@2.0.3
+200 silly idealTree ├── growl@1.8.1
+200 silly idealTree ├── has-binary-data@0.1.3
+200 silly idealTree ├── has-binary@0.1.6
+200 silly idealTree ├── has-cors@1.0.3
+200 silly idealTree ├── http-errors@1.3.1
+200 silly idealTree ├── indexof@0.0.1
+200 silly idealTree ├── inherits@2.0.1
+200 silly idealTree ├── ipaddr.js@1.0.1
+200 silly idealTree ├── isarray@0.0.1
+200 silly idealTree ├─┬ jade@0.26.3
+200 silly idealTree │ ├── commander@0.6.1
+200 silly idealTree │ └── mkdirp@0.3.0
+200 silly idealTree ├── json3@3.2.6
+200 silly idealTree ├── jsondate@0.0.1
+200 silly idealTree ├── lodash@3.10.1
+200 silly idealTree ├── lru-cache@2.7.3
+200 silly idealTree ├── media-typer@0.3.0
+200 silly idealTree ├── merge-descriptors@1.0.0
+200 silly idealTree ├── methods@1.1.1
+200 silly idealTree ├── mime-db@1.19.0
+200 silly idealTree ├── mime-types@2.1.7
+200 silly idealTree ├── mime@1.3.4
+200 silly idealTree ├── minimatch@0.2.14
+200 silly idealTree ├── minimist@0.0.8
+200 silly idealTree ├── mkdirp@0.5.0
+200 silly idealTree ├── mocha@2.3.4
+200 silly idealTree ├── ms@0.7.1
+200 silly idealTree ├── nan@2.1.0
+200 silly idealTree ├── negotiator@0.5.3
+200 silly idealTree ├── node-uuid@1.4.3
+200 silly idealTree ├── object-component@0.0.3
+200 silly idealTree ├── object-keys@1.0.1
+200 silly idealTree ├── on-finished@2.3.0
+200 silly idealTree ├── options@0.0.6
+200 silly idealTree ├── oracledb@1.4.0
+200 silly idealTree ├── parent-require@1.0.0
+200 silly idealTree ├── parsejson@0.0.1
+200 silly idealTree ├── parseqs@0.0.2
+200 silly idealTree ├── parseuri@0.0.2
+200 silly idealTree ├── parseurl@1.3.0
+200 silly idealTree ├── path-to-regexp@0.1.7
+200 silly idealTree ├── proxy-addr@1.0.8
+200 silly idealTree ├── qs@4.0.0
+200 silly idealTree ├── range-parser@1.0.3
+200 silly idealTree ├── retry@0.8.0
+200 silly idealTree ├── send@0.13.0
+200 silly idealTree ├── serve-static@1.10.0
+200 silly idealTree ├── shortid@2.2.4
+200 silly idealTree ├── should-equal@0.3.1
+200 silly idealTree ├── should-format@0.0.7
+200 silly idealTree ├── should-type@0.0.4
+200 silly idealTree ├── should@4.6.5
+200 silly idealTree ├── sigmund@1.0.1
+200 silly idealTree ├─┬ socket.io-adapter@0.3.1
+200 silly idealTree │ ├── debug@1.0.2
+200 silly idealTree │ ├── ms@0.6.2
+200 silly idealTree │ └─┬ socket.io-parser@2.2.2
+200 silly idealTree │   └── debug@0.7.4
+200 silly idealTree ├─┬ socket.io-client@1.3.7
+200 silly idealTree │ └── debug@0.7.4
+200 silly idealTree ├─┬ socket.io-parser@2.2.4
+200 silly idealTree │ └── debug@0.7.4
+200 silly idealTree ├─┬ socket.io@1.3.7
+200 silly idealTree │ ├── debug@2.1.0
+200 silly idealTree │ └── ms@0.6.2
+200 silly idealTree ├── statuses@1.2.1
+200 silly idealTree ├── supports-color@1.2.0
+200 silly idealTree ├── thunkify@2.1.2
+200 silly idealTree ├── to-array@0.1.3
+200 silly idealTree ├── tolerance@1.0.0
+200 silly idealTree ├── type-is@1.6.9
+200 silly idealTree ├── ultron@1.0.2
+200 silly idealTree ├── unpipe@1.0.0
+200 silly idealTree ├── utf-8-validate@1.2.1
+200 silly idealTree ├── utf8@2.1.0
+200 silly idealTree ├── utils-merge@1.0.0
+200 silly idealTree ├── vary@1.0.1
+200 silly idealTree ├── ws@0.8.0
+200 silly idealTree └── xmlhttprequest@1.5.0
+201 silly generateActionsToTake Starting
+202 silly install generateActionsToTake
+203 silly generateActionsToTake Finishing
+204 silly diffTrees action count 5
+205 silly diffTrees add bindings@1.2.1
+206 silly diffTrees add nan@2.1.0
+207 silly diffTrees add bufferutil@1.2.1
+208 silly diffTrees add utf-8-validate@1.2.1
+209 silly diffTrees add oracledb@1.4.0
+210 silly decomposeActions action count 40
+211 silly decomposeActions fetch bindings@1.2.1
+212 silly decomposeActions extract bindings@1.2.1
+213 silly decomposeActions preinstall bindings@1.2.1
+214 silly decomposeActions build bindings@1.2.1
+215 silly decomposeActions install bindings@1.2.1
+216 silly decomposeActions postinstall bindings@1.2.1
+217 silly decomposeActions test bindings@1.2.1
+218 silly decomposeActions finalize bindings@1.2.1
+219 silly decomposeActions fetch nan@2.1.0
+220 silly decomposeActions extract nan@2.1.0
+221 silly decomposeActions preinstall nan@2.1.0
+222 silly decomposeActions build nan@2.1.0
+223 silly decomposeActions install nan@2.1.0
+224 silly decomposeActions postinstall nan@2.1.0
+225 silly decomposeActions test nan@2.1.0
+226 silly decomposeActions finalize nan@2.1.0
+227 silly decomposeActions fetch bufferutil@1.2.1
+228 silly decomposeActions extract bufferutil@1.2.1
+229 silly decomposeActions preinstall bufferutil@1.2.1
+230 silly decomposeActions build bufferutil@1.2.1
+231 silly decomposeActions install bufferutil@1.2.1
+232 silly decomposeActions postinstall bufferutil@1.2.1
+233 silly decomposeActions test bufferutil@1.2.1
+234 silly decomposeActions finalize bufferutil@1.2.1
+235 silly decomposeActions fetch utf-8-validate@1.2.1
+236 silly decomposeActions extract utf-8-validate@1.2.1
+237 silly decomposeActions preinstall utf-8-validate@1.2.1
+238 silly decomposeActions build utf-8-validate@1.2.1
+239 silly decomposeActions install utf-8-validate@1.2.1
+240 silly decomposeActions postinstall utf-8-validate@1.2.1
+241 silly decomposeActions test utf-8-validate@1.2.1
+242 silly decomposeActions finalize utf-8-validate@1.2.1
+243 silly decomposeActions fetch oracledb@1.4.0
+244 silly decomposeActions extract oracledb@1.4.0
+245 silly decomposeActions preinstall oracledb@1.4.0
+246 silly decomposeActions build oracledb@1.4.0
+247 silly decomposeActions install oracledb@1.4.0
+248 silly decomposeActions postinstall oracledb@1.4.0
+249 silly decomposeActions test oracledb@1.4.0
+250 silly decomposeActions finalize oracledb@1.4.0
+251 silly executeActions Starting
+252 silly install executeActions
+253 silly doSerial global-install 0
+254 silly doParallel fetch 5
+255 verbose lock using C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\_locks\staging-e2404966cc5c2d99.lock for c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging
+256 silly doParallel extract 5
+257 silly extract bindings
+258 silly extract nan
+259 silly extract bufferutil
+260 silly extract utf-8-validate
+261 silly extract oracledb
+262 verbose unbuild node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9
+263 verbose unbuild node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e
+264 verbose unbuild node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7
+265 verbose unbuild node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa
+266 verbose unbuild node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270
+267 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9 is being purged from base c:\Users\Haroon Ghawsi\Desktop\myProject
+268 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e is being purged from base c:\Users\Haroon Ghawsi\Desktop\myProject
+269 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7 is being purged from base c:\Users\Haroon Ghawsi\Desktop\myProject
+270 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa is being purged from base c:\Users\Haroon Ghawsi\Desktop\myProject
+271 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270 is being purged from base c:\Users\Haroon Ghawsi\Desktop\myProject
+272 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9
+273 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e
+274 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7
+275 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa
+276 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270
+277 verbose tar unpack C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\nan\2.1.0\package.tgz
+278 verbose tar unpacking to c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9
+279 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9 is being purged
+280 verbose tar unpack C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+281 verbose tar unpacking to c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e
+282 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e is being purged
+283 verbose tar unpack C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\bufferutil\1.2.1\package.tgz
+284 verbose tar unpacking to c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7
+285 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7 is being purged
+286 verbose tar unpack C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\utf-8-validate\1.2.1\package.tgz
+287 verbose tar unpacking to c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa
+288 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa is being purged
+289 verbose tar unpack C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\oracledb\1.4.0\package.tgz
+290 verbose tar unpacking to c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270
+291 silly gentlyRm c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270 is being purged
+292 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9
+293 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e
+294 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7
+295 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa
+296 verbose gentlyRm don't care about contents; nuking c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270
+297 silly gunzTarPerm modes [ '777', '666' ]
+298 silly gunzTarPerm modes [ '777', '666' ]
+299 silly gunzTarPerm modes [ '777', '666' ]
+300 silly gunzTarPerm modes [ '777', '666' ]
+301 silly gunzTarPerm modes [ '777', '666' ]
+302 silly gunzTarPerm extractEntry package.json
+303 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+304 silly gunzTarPerm extractEntry package.json
+305 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+306 silly gunzTarPerm extractEntry package.json
+307 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+308 silly gunzTarPerm extractEntry package.json
+309 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+310 silly gunzTarPerm extractEntry package.json
+311 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+312 silly gunzTarPerm extractEntry README.md
+313 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+314 silly gunzTarPerm extractEntry README.md
+315 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+316 silly gunzTarPerm extractEntry bindings.js
+317 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+318 silly gunzTarPerm extractEntry include_dirs.js
+319 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+320 silly gunzTarPerm extractEntry .npmignore
+321 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+322 silly gunzTarPerm extractEntry README.md
+323 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+324 silly gunzTarPerm extractEntry .npmignore
+325 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+326 silly gunzTarPerm extractEntry README.md
+327 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+328 silly gunzTarPerm extractEntry README.md
+329 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+330 silly gunzTarPerm extractEntry index.js
+331 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry fallback.js
+333 silly gunzTarPerm modified mode [ 'fallback.js', 420, 438 ]
+334 silly gunzTarPerm extractEntry index.js
+335 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+336 silly gunzTarPerm extractEntry CHANGELOG.md
+337 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+338 silly gunzTarPerm extractEntry fallback.js
+339 silly gunzTarPerm modified mode [ 'fallback.js', 420, 438 ]
+340 silly gunzTarPerm extractEntry index.js
+341 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+342 silly gunzTarPerm extractEntry nan_converters.h
+343 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+344 silly gunzTarPerm extractEntry LICENSE.md
+345 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+346 silly gunzTarPerm extractEntry .dntrc
+347 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+348 silly gunzTarPerm extractEntry LICENSE.md
+349 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+350 silly gunzTarPerm extractEntry appveyor.yml
+351 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+352 silly gunzTarPerm extractEntry .travis.yml
+353 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+354 silly gunzTarPerm extractEntry binding.gyp
+355 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+356 silly gunzTarPerm extractEntry binding.gyp
+357 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+358 silly gunzTarPerm extractEntry .travis.yml
+359 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+360 silly gunzTarPerm extractEntry binding.gyp
+361 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+362 silly gunzTarPerm extractEntry lib/oracledb.js
+363 silly gunzTarPerm modified mode [ 'lib/oracledb.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry doc/new.md
+365 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+366 silly gunzTarPerm extractEntry doc/.build.sh
+367 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 511 ]
+368 silly gunzTarPerm extractEntry src/validation.cc
+369 silly gunzTarPerm modified mode [ 'src/validation.cc', 420, 438 ]
+370 silly gunzTarPerm extractEntry src/bufferutil.cc
+371 silly gunzTarPerm modified mode [ 'src/bufferutil.cc', 420, 438 ]
+372 silly gunzTarPerm extractEntry src/dpi/include/dpi.h
+373 silly gunzTarPerm modified mode [ 'src/dpi/include/dpi.h', 420, 438 ]
+374 silly gunzTarPerm extractEntry src/dpi/include/dpiCommon.h
+375 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiCommon.h', 420, 438 ]
+376 silly gunzTarPerm extractEntry doc/buffers.md
+377 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+378 silly gunzTarPerm extractEntry doc/callback.md
+379 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+380 silly gunzTarPerm extractEntry src/dpi/include/dpiConn.h
+381 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiConn.h', 420, 438 ]
+382 silly gunzTarPerm extractEntry src/dpi/include/dpiDateTimeArray.h
+383 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiDateTimeArray.h', 420, 438 ]
+384 silly gunzTarPerm extractEntry src/dpi/include/dpiEnv.h
+385 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiEnv.h', 420, 438 ]
+386 silly gunzTarPerm extractEntry src/dpi/include/dpiException.h
+387 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiException.h', 420, 438 ]
+388 silly gunzTarPerm extractEntry doc/converters.md
+389 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+390 silly gunzTarPerm extractEntry doc/errors.md
+391 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+392 silly gunzTarPerm extractEntry src/dpi/include/dpiLob.h
+393 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiLob.h', 420, 438 ]
+394 silly gunzTarPerm extractEntry doc/maybe_types.md
+395 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+396 silly gunzTarPerm extractEntry doc/methods.md
+397 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+398 silly gunzTarPerm extractEntry doc/asyncworker.md
+399 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+400 silly gunzTarPerm extractEntry doc/node_misc.md
+401 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+402 silly gunzTarPerm extractEntry src/dpi/include/dpiPool.h
+403 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiPool.h', 420, 438 ]
+404 silly gunzTarPerm extractEntry src/dpi/include/dpiStmt.h
+405 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiStmt.h', 420, 438 ]
+406 silly gunzTarPerm extractEntry doc/persistent.md
+407 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+408 silly gunzTarPerm extractEntry doc/scopes.md
+409 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+410 silly gunzTarPerm extractEntry doc/script.md
+411 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+412 silly gunzTarPerm extractEntry doc/string_bytes.md
+413 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+414 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.cpp
+415 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiExceptionImpl.cpp', 420, 438 ]
+416 silly gunzTarPerm extractEntry src/dpi/src/dpiCommon.cpp
+417 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiCommon.cpp', 420, 438 ]
+418 silly gunzTarPerm extractEntry doc/v8_internals.md
+419 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+420 silly gunzTarPerm extractEntry doc/v8_misc.md
+421 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+422 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.h
+423 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiConnImpl.h', 420, 438 ]
+424 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.cpp
+425 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiDateTimeArrayImpl.cpp', 420, 438 ]
+426 silly gunzTarPerm extractEntry nan.h
+427 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+428 silly gunzTarPerm extractEntry nan_callbacks.h
+429 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+430 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+431 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+432 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+433 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+434 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+435 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+436 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+437 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+438 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+439 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+440 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+441 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+442 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+443 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+444 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+445 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+446 silly gunzTarPerm extractEntry nan_new.h
+447 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+448 silly gunzTarPerm extractEntry nan_object_wrap.h
+449 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+450 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+451 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+452 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+453 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+454 silly gunzTarPerm extractEntry nan_string_bytes.h
+455 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+456 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+457 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+458 silly gunzTarPerm extractEntry nan_weak.h
+459 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+460 silly gunzTarPerm extractEntry CHANGELOG.md
+461 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+462 silly gunzTarPerm extractEntry tools/package.json
+463 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+464 silly gunzTarPerm extractEntry tools/README.md
+465 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+466 silly gunzTarPerm extractEntry tools/1to2.js
+467 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+468 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.h
+469 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiDateTimeArrayImpl.h', 420, 438 ]
+470 silly gunzTarPerm extractEntry src/dpi/src/dpiEnv.cpp
+471 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiEnv.cpp', 420, 438 ]
+472 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.cpp
+473 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiEnvImpl.cpp', 420, 438 ]
+474 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.h
+475 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiEnvImpl.h', 420, 438 ]
+476 silly gunzTarPerm extractEntry src/dpi/src/dpiException.cpp
+477 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiException.cpp', 420, 438 ]
+478 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.cpp
+479 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiConnImpl.cpp', 420, 438 ]
+480 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.h
+481 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiExceptionImpl.h', 420, 438 ]
+482 silly gunzTarPerm extractEntry src/dpi/src/dpiLob.cpp
+483 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiLob.cpp', 420, 438 ]
+484 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.cpp
+485 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiPoolImpl.cpp', 420, 438 ]
+486 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.h
+487 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiPoolImpl.h', 420, 438 ]
+488 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.cpp
+489 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiStmtImpl.cpp', 420, 438 ]
+490 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.h
+491 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiStmtImpl.h', 420, 438 ]
+492 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.cpp
+493 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiUtils.cpp', 420, 438 ]
+494 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.h
+495 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiUtils.h', 420, 438 ]
+496 silly gunzTarPerm extractEntry src/njs/src/njsOracle.cpp
+497 silly gunzTarPerm modified mode [ 'src/njs/src/njsOracle.cpp', 420, 438 ]
+498 silly gunzTarPerm extractEntry src/njs/src/njsConnection.cpp
+499 silly gunzTarPerm modified mode [ 'src/njs/src/njsConnection.cpp', 420, 438 ]
+500 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.cpp
+501 silly gunzTarPerm modified mode [ 'src/njs/src/njsIntLob.cpp', 420, 438 ]
+502 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.h
+503 silly gunzTarPerm modified mode [ 'src/njs/src/njsIntLob.h', 420, 438 ]
+504 silly gunzTarPerm extractEntry src/njs/src/njsMessages.cpp
+505 silly gunzTarPerm modified mode [ 'src/njs/src/njsMessages.cpp', 420, 438 ]
+506 silly gunzTarPerm extractEntry src/njs/src/njsMessages.h
+507 silly gunzTarPerm modified mode [ 'src/njs/src/njsMessages.h', 420, 438 ]
+508 silly gunzTarPerm extractEntry src/njs/src/njsConnection.h
+509 silly gunzTarPerm modified mode [ 'src/njs/src/njsConnection.h', 420, 438 ]
+510 silly gunzTarPerm extractEntry src/njs/src/njsOracle.h
+511 silly gunzTarPerm modified mode [ 'src/njs/src/njsOracle.h', 420, 438 ]
+512 silly gunzTarPerm extractEntry src/njs/src/njsPool.cpp
+513 silly gunzTarPerm modified mode [ 'src/njs/src/njsPool.cpp', 420, 438 ]
+514 silly gunzTarPerm extractEntry src/njs/src/njsPool.h
+515 silly gunzTarPerm modified mode [ 'src/njs/src/njsPool.h', 420, 438 ]
+516 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.cpp
+517 silly gunzTarPerm modified mode [ 'src/njs/src/njsResultSet.cpp', 420, 438 ]
+518 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.h
+519 silly gunzTarPerm modified mode [ 'src/njs/src/njsResultSet.h', 420, 438 ]
+520 silly gunzTarPerm extractEntry src/njs/src/njsUtils.h
+521 silly gunzTarPerm modified mode [ 'src/njs/src/njsUtils.h', 420, 438 ]
+522 silly gunzTarPerm extractEntry test/README.md
+523 silly gunzTarPerm modified mode [ 'test/README.md', 420, 438 ]
+524 silly gunzTarPerm extractEntry test/dataTypeNumber.js
+525 silly gunzTarPerm modified mode [ 'test/dataTypeNumber.js', 420, 438 ]
+526 silly gunzTarPerm extractEntry test/dataTypeNumber2.js
+527 silly gunzTarPerm modified mode [ 'test/dataTypeNumber2.js', 420, 438 ]
+528 silly gunzTarPerm extractEntry test/dataTypeNvarchar2.js
+529 silly gunzTarPerm modified mode [ 'test/dataTypeNvarchar2.js', 420, 438 ]
+530 silly gunzTarPerm extractEntry test/dataTypeNchar.js
+531 silly gunzTarPerm modified mode [ 'test/dataTypeNchar.js', 420, 438 ]
+532 silly gunzTarPerm extractEntry test/dataTypeRowid.js
+533 silly gunzTarPerm modified mode [ 'test/dataTypeRowid.js', 420, 438 ]
+534 silly gunzTarPerm extractEntry test/accessTerminatedPoolAttributes.js
+535 silly gunzTarPerm modified mode [ 'test/accessTerminatedPoolAttributes.js', 420, 438 ]
+536 silly gunzTarPerm extractEntry test/dataTypeTimestamp2.js
+537 silly gunzTarPerm modified mode [ 'test/dataTypeTimestamp2.js', 420, 438 ]
+538 silly gunzTarPerm extractEntry test/dataTypeTimestamp3.js
+539 silly gunzTarPerm modified mode [ 'test/dataTypeTimestamp3.js', 420, 438 ]
+540 silly gunzTarPerm extractEntry test/dataTypeTimestamp4.js
+541 silly gunzTarPerm modified mode [ 'test/dataTypeTimestamp4.js', 420, 438 ]
+542 silly gunzTarPerm extractEntry test/dataTypeFloat2.js
+543 silly gunzTarPerm modified mode [ 'test/dataTypeFloat2.js', 420, 438 ]
+544 silly gunzTarPerm extractEntry test/dataTypeTimestamp5.js
+545 silly gunzTarPerm modified mode [ 'test/dataTypeTimestamp5.js', 420, 438 ]
+546 silly gunzTarPerm extractEntry test/dataTypeFloat.js
+547 silly gunzTarPerm modified mode [ 'test/dataTypeFloat.js', 420, 438 ]
+548 silly gunzTarPerm extractEntry test/dataTypeTimestamp6.js
+549 silly gunzTarPerm modified mode [ 'test/dataTypeTimestamp6.js', 420, 438 ]
+550 silly gunzTarPerm extractEntry test/dataTypeDate.js
+551 silly gunzTarPerm modified mode [ 'test/dataTypeDate.js', 420, 438 ]
+552 silly gunzTarPerm extractEntry test/dataTypeVarchar2.js
+553 silly gunzTarPerm modified mode [ 'test/dataTypeVarchar2.js', 420, 438 ]
+554 silly gunzTarPerm extractEntry test/dataTypeClob.js
+555 silly gunzTarPerm modified mode [ 'test/dataTypeClob.js', 420, 438 ]
+556 silly gunzTarPerm extractEntry test/dbConfig.js
+557 silly gunzTarPerm modified mode [ 'test/dbConfig.js', 420, 438 ]
+558 silly gunzTarPerm extractEntry test/dataTypeChar.js
+559 silly gunzTarPerm modified mode [ 'test/dataTypeChar.js', 420, 438 ]
+560 silly gunzTarPerm extractEntry test/dmlReturning.js
+561 silly gunzTarPerm modified mode [ 'test/dmlReturning.js', 420, 438 ]
+562 silly gunzTarPerm extractEntry test/dataTypeBlob.js
+563 silly gunzTarPerm modified mode [ 'test/dataTypeBlob.js', 420, 438 ]
+564 silly gunzTarPerm extractEntry test/examples.js
+565 silly gunzTarPerm modified mode [ 'test/examples.js', 420, 438 ]
+566 silly gunzTarPerm extractEntry test/dataTypeBinaryFloat.js
+567 silly gunzTarPerm modified mode [ 'test/dataTypeBinaryFloat.js', 420, 438 ]
+568 silly gunzTarPerm extractEntry test/externalAuthentication.js
+569 silly gunzTarPerm modified mode [ 'test/externalAuthentication.js', 420, 438 ]
+570 silly gunzTarPerm extractEntry test/dataTypeBinaryDouble.js
+571 silly gunzTarPerm modified mode [ 'test/dataTypeBinaryDouble.js', 420, 438 ]
+572 silly gunzTarPerm extractEntry test/fetchAs.js
+573 silly gunzTarPerm modified mode [ 'test/fetchAs.js', 420, 438 ]
+574 silly gunzTarPerm extractEntry test/dataTypeAssist.js
+575 silly gunzTarPerm modified mode [ 'test/dataTypeAssist.js', 420, 438 ]
+576 silly gunzTarPerm extractEntry test/releaseAfterFailingTerminate.js
+577 silly gunzTarPerm modified mode [ 'test/releaseAfterFailingTerminate.js', 420, 438 ]
+578 silly gunzTarPerm extractEntry test/connection.js
+579 silly gunzTarPerm modified mode [ 'test/connection.js', 420, 438 ]
+580 silly gunzTarPerm extractEntry test/getConnAfterPoolTerminate.js
+581 silly gunzTarPerm modified mode [ 'test/getConnAfterPoolTerminate.js', 420, 438 ]
+582 silly gunzTarPerm extractEntry test/columnMetadata.js
+583 silly gunzTarPerm modified mode [ 'test/columnMetadata.js', 420, 438 ]
+584 silly gunzTarPerm extractEntry test/properties.js
+585 silly gunzTarPerm modified mode [ 'test/properties.js', 420, 438 ]
+586 silly gunzTarPerm extractEntry test/resultSet1.js
+587 silly gunzTarPerm modified mode [ 'test/resultSet1.js', 420, 438 ]
+588 silly gunzTarPerm extractEntry test/lobResultSet.js
+589 silly gunzTarPerm modified mode [ 'test/lobResultSet.js', 420, 438 ]
+590 silly gunzTarPerm extractEntry test/clobPlsqlString.js
+591 silly gunzTarPerm modified mode [ 'test/clobPlsqlString.js', 420, 438 ]
+592 silly gunzTarPerm extractEntry test/nestedCursor.js
+593 silly gunzTarPerm modified mode [ 'test/nestedCursor.js', 420, 438 ]
+594 silly gunzTarPerm extractEntry test/checkClassesTypes.js
+595 silly gunzTarPerm modified mode [ 'test/checkClassesTypes.js', 420, 438 ]
+596 silly gunzTarPerm extractEntry test/nullColumnValues.js
+597 silly gunzTarPerm modified mode [ 'test/nullColumnValues.js', 420, 438 ]
+598 silly gunzTarPerm extractEntry test/binding.js
+599 silly gunzTarPerm modified mode [ 'test/binding.js', 420, 438 ]
+600 silly gunzTarPerm extractEntry test/pool.js
+601 silly gunzTarPerm modified mode [ 'test/pool.js', 420, 438 ]
+602 silly gunzTarPerm extractEntry test/autoCommitForSelect.js
+603 silly gunzTarPerm modified mode [ 'test/autoCommitForSelect.js', 420, 438 ]
+604 silly gunzTarPerm extractEntry test/poolTimeout.js
+605 silly gunzTarPerm modified mode [ 'test/poolTimeout.js', 420, 438 ]
+606 silly gunzTarPerm extractEntry test/autoCommit.js
+607 silly gunzTarPerm modified mode [ 'test/autoCommit.js', 420, 438 ]
+608 silly gunzTarPerm extractEntry test/poolValidityAfterFailingTerminate.js
+609 silly gunzTarPerm modified mode [ 'test/poolValidityAfterFailingTerminate.js', 420, 438 ]
+610 silly gunzTarPerm extractEntry test/dataTypeRaw.js
+611 silly gunzTarPerm modified mode [ 'test/dataTypeRaw.js', 420, 438 ]
+612 silly gunzTarPerm extractEntry test/resultSet2.js
+613 silly gunzTarPerm modified mode [ 'test/resultSet2.js', 420, 438 ]
+614 silly gunzTarPerm extractEntry test/dataTypeTimestamp1.js
+615 silly gunzTarPerm modified mode [ 'test/dataTypeTimestamp1.js', 420, 438 ]
+616 silly gunzTarPerm extractEntry test/list.txt
+617 silly gunzTarPerm modified mode [ 'test/list.txt', 420, 438 ]
+618 silly gunzTarPerm extractEntry test/fuzzydinosaur.jpg
+619 silly gunzTarPerm modified mode [ 'test/fuzzydinosaur.jpg', 420, 438 ]
+620 silly gunzTarPerm extractEntry test/clobexample.txt
+621 silly gunzTarPerm modified mode [ 'test/clobexample.txt', 420, 438 ]
+622 silly doParallel preinstall 5
+623 silly preinstall bindings c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e
+624 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+625 silly preinstall nan c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9
+626 info lifecycle nan@2.1.0~preinstall: nan@2.1.0
+627 silly preinstall bufferutil c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7
+628 info lifecycle bufferutil@1.2.1~preinstall: bufferutil@1.2.1
+629 silly preinstall utf-8-validate c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa
+630 info lifecycle utf-8-validate@1.2.1~preinstall: utf-8-validate@1.2.1
+631 silly preinstall oracledb c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270
+632 info lifecycle oracledb@1.4.0~preinstall: oracledb@1.4.0
+633 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+634 silly lifecycle nan@2.1.0~preinstall: no script for preinstall, continuing
+635 silly lifecycle bufferutil@1.2.1~preinstall: no script for preinstall, continuing
+636 silly lifecycle utf-8-validate@1.2.1~preinstall: no script for preinstall, continuing
+637 silly lifecycle oracledb@1.4.0~preinstall: no script for preinstall, continuing
+638 silly doReverseSerial remove 0
+639 silly doSerial move 0
+640 silly doSerial finalize 5
+641 silly finalize c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\bindings
+642 silly finalize c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\nan
+643 silly finalize c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\bufferutil
+644 silly finalize c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\utf-8-validate
+645 silly finalize c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\oracledb
+646 silly doSerial build 5
+647 silly build bindings
+648 info linkStuff bindings@1.2.1
+649 silly linkStuff bindings@1.2.1 has c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules as its parent node_modules
+650 verbose linkBins bindings@1.2.1
+651 verbose linkMans bindings@1.2.1
+652 verbose rebuildBundles bindings@1.2.1
+653 silly build nan
+654 info linkStuff nan@2.1.0
+655 silly linkStuff nan@2.1.0 has c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules as its parent node_modules
+656 verbose linkBins nan@2.1.0
+657 verbose linkMans nan@2.1.0
+658 verbose rebuildBundles nan@2.1.0
+659 silly build bufferutil
+660 info linkStuff bufferutil@1.2.1
+661 silly linkStuff bufferutil@1.2.1 has c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules as its parent node_modules
+662 verbose linkBins bufferutil@1.2.1
+663 verbose linkMans bufferutil@1.2.1
+664 verbose rebuildBundles bufferutil@1.2.1
+665 silly build utf-8-validate
+666 info linkStuff utf-8-validate@1.2.1
+667 silly linkStuff utf-8-validate@1.2.1 has c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules as its parent node_modules
+668 verbose linkBins utf-8-validate@1.2.1
+669 verbose linkMans utf-8-validate@1.2.1
+670 verbose rebuildBundles utf-8-validate@1.2.1
+671 silly build oracledb
+672 info linkStuff oracledb@1.4.0
+673 silly linkStuff oracledb@1.4.0 has c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules as its parent node_modules
+674 verbose linkBins oracledb@1.4.0
+675 verbose linkMans oracledb@1.4.0
+676 verbose rebuildBundles oracledb@1.4.0
+677 silly doSerial global-link 0
+678 silly doParallel update-linked 0
+679 silly doSerial install 5
+680 silly install bindings c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bindings-b65f8a2c50f0c5cf48b8a83557085b8e
+681 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+682 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+683 silly install nan c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\nan-abcd88a7137e5bdbe3229b45335fc6a9
+684 info lifecycle nan@2.1.0~install: nan@2.1.0
+685 silly lifecycle nan@2.1.0~install: no script for install, continuing
+686 silly install bufferutil c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\bufferutil-52dcf320aa13b73ad630ddc18c7bb9d7
+687 info lifecycle bufferutil@1.2.1~install: bufferutil@1.2.1
+688 verbose lifecycle bufferutil@1.2.1~install: unsafe-perm in lifecycle true
+689 verbose lifecycle bufferutil@1.2.1~install: PATH: c:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\bufferutil\node_modules\.bin;c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.bin;c:\Users\Haroon Ghawsi\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\nodejs\;c:\Users\Haroon Ghawsi\AppData\Roaming\npm
+690 verbose lifecycle bufferutil@1.2.1~install: CWD: c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\bufferutil
+691 silly lifecycle bufferutil@1.2.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+692 silly lifecycle bufferutil@1.2.1~install: Returned: code: 1  signal: null
+693 info lifecycle bufferutil@1.2.1~install: Failed to exec install script
+694 warn install:bufferutil bufferutil@1.2.1 install: `node-gyp rebuild`
+694 warn install:bufferutil Exit status 1
+695 verbose install:bufferutil Error: bufferutil@1.2.1 install: `node-gyp rebuild`
+695 verbose install:bufferutil Exit status 1
+695 verbose install:bufferutil     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:233:16)
+695 verbose install:bufferutil     at emitTwo (events.js:87:13)
+695 verbose install:bufferutil     at EventEmitter.emit (events.js:172:7)
+695 verbose install:bufferutil     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+695 verbose install:bufferutil     at emitTwo (events.js:87:13)
+695 verbose install:bufferutil     at ChildProcess.emit (events.js:172:7)
+695 verbose install:bufferutil     at maybeClose (internal/child_process.js:818:16)
+695 verbose install:bufferutil     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+696 silly install utf-8-validate c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\utf-8-validate-3e272b804d086cd9f3a6b621ed08a7fa
+697 info lifecycle utf-8-validate@1.2.1~install: utf-8-validate@1.2.1
+698 verbose lifecycle utf-8-validate@1.2.1~install: unsafe-perm in lifecycle true
+699 verbose lifecycle utf-8-validate@1.2.1~install: PATH: c:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\utf-8-validate\node_modules\.bin;c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.bin;c:\Users\Haroon Ghawsi\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\nodejs\;c:\Users\Haroon Ghawsi\AppData\Roaming\npm
+700 verbose lifecycle utf-8-validate@1.2.1~install: CWD: c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\utf-8-validate
+701 silly lifecycle utf-8-validate@1.2.1~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+702 silly lifecycle utf-8-validate@1.2.1~install: Returned: code: 1  signal: null
+703 info lifecycle utf-8-validate@1.2.1~install: Failed to exec install script
+704 warn install:utf-8-validate utf-8-validate@1.2.1 install: `node-gyp rebuild`
+704 warn install:utf-8-validate Exit status 1
+705 verbose install:utf-8-validate Error: utf-8-validate@1.2.1 install: `node-gyp rebuild`
+705 verbose install:utf-8-validate Exit status 1
+705 verbose install:utf-8-validate     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:233:16)
+705 verbose install:utf-8-validate     at emitTwo (events.js:87:13)
+705 verbose install:utf-8-validate     at EventEmitter.emit (events.js:172:7)
+705 verbose install:utf-8-validate     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+705 verbose install:utf-8-validate     at emitTwo (events.js:87:13)
+705 verbose install:utf-8-validate     at ChildProcess.emit (events.js:172:7)
+705 verbose install:utf-8-validate     at maybeClose (internal/child_process.js:818:16)
+705 verbose install:utf-8-validate     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+706 silly install oracledb c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging\oracledb-9ccf0ff47c7c8876ac359bcbb113d270
+707 info lifecycle oracledb@1.4.0~install: oracledb@1.4.0
+708 verbose lifecycle oracledb@1.4.0~install: unsafe-perm in lifecycle true
+709 verbose lifecycle oracledb@1.4.0~install: PATH: c:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\oracledb\node_modules\.bin;c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.bin;c:\Users\Haroon Ghawsi\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\nodejs\;c:\Users\Haroon Ghawsi\AppData\Roaming\npm
+710 verbose lifecycle oracledb@1.4.0~install: CWD: c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\oracledb
+711 silly lifecycle oracledb@1.4.0~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+712 silly lifecycle oracledb@1.4.0~install: Returned: code: 1  signal: null
+713 info lifecycle oracledb@1.4.0~install: Failed to exec install script
+714 verbose unlock done using C:\Users\Haroon Ghawsi\AppData\Roaming\npm-cache\_locks\staging-e2404966cc5c2d99.lock for c:\Users\Haroon Ghawsi\Desktop\myProject\node_modules\.staging
+715 silly rollbackFailedOptional Starting
+716 silly rollbackFailedOptional Finishing
+717 silly runTopLevelLifecycles Starting
+718 silly runTopLevelLifecycles Finishing
+719 silly install printInstalled
+720 verbose stack Error: oracledb@1.4.0 install: `node-gyp rebuild`
+720 verbose stack Exit status 1
+720 verbose stack     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:233:16)
+720 verbose stack     at emitTwo (events.js:87:13)
+720 verbose stack     at EventEmitter.emit (events.js:172:7)
+720 verbose stack     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+720 verbose stack     at emitTwo (events.js:87:13)
+720 verbose stack     at ChildProcess.emit (events.js:172:7)
+720 verbose stack     at maybeClose (internal/child_process.js:818:16)
+720 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+721 verbose pkgid oracledb@1.4.0
+722 verbose cwd c:\Users\Haroon Ghawsi\Desktop\myProject
+723 error Windows_NT 10.0.10240
+724 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "oracledb" "--save"
+725 error node v5.0.0
+726 error npm  v3.3.6
+727 error code ELIFECYCLE
+728 error oracledb@1.4.0 install: `node-gyp rebuild`
+728 error Exit status 1
+729 error Failed at the oracledb@1.4.0 install script 'node-gyp rebuild'.
+729 error This is most likely a problem with the oracledb package,
+729 error not with npm itself.
+729 error Tell the author that this fails on your system:
+729 error     node-gyp rebuild
+729 error You can get their info via:
+729 error     npm owner ls oracledb
+729 error There is likely additional logging output above.
+730 verbose exit [ 1, true ]
