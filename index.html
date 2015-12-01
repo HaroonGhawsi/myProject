@@ -8,7 +8,9 @@
 </head>
 <body>
 
-<form name="logInfo" method="post">
+<h1>This is the Index HTML Page, Which should be displayed to client through Controller layer from Server/Database</h1>
+
+<form action="Controller.js" name="logInfo" method="post">
     <label>User Name</label>
     <input name="uid" type="text"/>
     <label>Password</label>
@@ -18,21 +20,28 @@
 
     <script>
 
-            function validateForm(){
+         /*   function validateForm(){
                 var uid = document.forms.logInfo.uid.value;
+                var uPwd = document.forms.logInfo.uPwd.value;
+
                 if(uid == null || uid == ""){
                     alert("User Name cannot be empty");
                     return false;
                 }
-                var uPwd = document.forms.logInfo.uPwd.value;
                 if(uPwd == null || uPwd == ""){
                     alert("Password cannot be empty");
                     return false;
                 }
-            };
-            function submitFormData(){};
+            };*/
+            function submitFormData(){
+                var user = document.forms.logInfo.uid.value;
+                var pass = document.forms.logInfo.uPwd.value;
 
-        //var socket = io.connect();
+
+
+            };
+
+        var socket = io.connect();
 
 
     </script>

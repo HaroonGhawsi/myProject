@@ -48,13 +48,14 @@ var controller = http.createServer(function(request, response){
 
     var controller = http.createServer(function(req,res){
         var path = url.parse(req.url).pathname;
+        console.log(path);
 
         switch(path){
             case '/':
                 res.writeHead(200, {
                     'Content-Type': 'text/html'
                 });
-                res.write("JSON Data");
+                res.write("Json data");
                 res.end();
                 break;
             case '/index.html':
@@ -73,7 +74,7 @@ var controller = http.createServer(function(request, response){
                     }
                 });
                 break;
-            defaul:
+            default:
             res.writeHead(404);
                 res.write('Oops this does not exist - 404');
                 res.end();
